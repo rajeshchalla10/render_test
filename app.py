@@ -17,5 +17,5 @@ def index():
     locations = sorted(data['location'].unique())
     area_type = sorted(data['area_type'].unique())
 
-    return render_template('index_test.html',locations=locations,area_type=area_type)
+    return render_template('index.html',locations=locations,area_type=area_type)
 
